@@ -16,9 +16,9 @@ export default function Navbar() {
         <Link to="/" className="navbar-brand" aria-label="Go to dashboard home">
           Go Business
         </Link>
-        <div className="navbar-links" aria-label="Primary">
+        <nav className="navbar-links" aria-label="Primary">
           <Link to="/" className="nav-link">Home</Link>
-        </div>
+        </nav>
         <button onClick={handleLogout} className="logout-button">
           Log out
         </button>
